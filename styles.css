@@ -1,0 +1,19 @@
+@import url(estilos/cabecalho.css);
+@import url(estilos/conteudo1.css);
+@import url(estilos/metricas.css);
+@import url(estilos/vagas.css);
+@import url(estilos/depoimentos.css);
+@import url(estilos/formulario.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+
+:root{
+    --cor-fundo: #FFFFFF;
+    --logo: #3A404E;
+    --cinza-menu: #667085;
+    --bordo: #8E2424;
+    --preto: #101828;
+    --rodape:#98A2B3;
+
+    --fonte: 'Inter', sans-serif;
+}

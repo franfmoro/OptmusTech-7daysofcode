@@ -1,0 +1,55 @@
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:32px;
+    padding: 96px 93px;
+
+}
+.depo_destaque{
+    color: var(--bordo);
+    text-align: center;
+    font-family: var(--fonte);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;  
+}
+.depo_texto{
+    color: var(--preto);
+    text-align: center;
+    font-family: var(--fonte);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px; 
+    letter-spacing: -0.72px;
+}
+.depo_autor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+#depo_autor_img{
+    width: 56px;
+    height: 56px;
+    border-radius: 200px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+#nome_autor{
+    color: var(--preto);
+    text-align: center;
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+#cargo_autor{
+    color: var(--cinza-menu);
+    text-align: center;
+    font-family: var(--fonte);
+    font-size: 14px;
+    font-weight: 400;
+}
